@@ -2,6 +2,7 @@ package com.trybe.acc.java.transformatexto;
 
 /** Classe texto. */
 public class Texto {
+  /** Transforma texto. */
   public String transformaTexto(String frase) {
     String novaFrase = frase.replace('+', ' ');
     String[] separaPalavras = novaFrase.split(" ");
